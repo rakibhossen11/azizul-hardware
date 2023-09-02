@@ -137,7 +137,7 @@ const HomeScreen = () => {
         <Text className="font-bold text-2xl">&</Text>
         <Text className="font-bold text-2xl">Electronic</Text>
       </View>
-      <View className="mx-6">
+      <View className="mx-2">
         {data.map((item) => (
           <View className="flex flex-row items-center p-2 my-2 bg-[#F9775B] rounded-md" key={item.id}>
             <View className="">
